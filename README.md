@@ -3,7 +3,7 @@ Zero dependency read more link implementation to any kind of content.
 
 ## Examples
 
-### Works with text nodes (inline)
+### Works inline
 
 ```html
 <p>Lorem ipsum dolor sit amet. <span class="o-read-more-read-less__toggle"></span> Lorem ipsum dolor sit amet. <span>Some</span> <strong>useful</strong> <em>tags</em>.</p>
