@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  <link rel="stylesheet" href="read-more-read-less.min.css">
+  <script src="read-more-read-less.min.js" defer async></script>
+  <style>
+    /* Demo Styles */
+    .o-read-more-read-less__toggle {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Read More Read Less - Demo</h1>
+
+<h2>Inline Usage</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="o-read-more-read-less__toggle" data-more="Read more" data-less="Read less"></span> Beatae blanditiis consequuntur cum debitis deleniti, dolor ea eum incidunt molestiae nam, non quam quibusdam quisquam quod ratione repellat soluta suscipit unde veniam vitae! A aperiam architecto aspernatur autem delectus deserunt dicta, ducimus, eius harum natus neque numquam quas, quidem quis repellendus sunt unde ut. A assumenda aut corporis cumque cupiditate dignissimos dolorem dolores doloribus ea eaque eius enim eos esse, et ex, excepturi harum illum ipsa laborum mollitia nam nesciunt nobis non perferendis quibusdam quidem recusandae repellat sint tempore tenetur unde ut velit voluptatibus. Ad cupiditate excepturi inventore provident! Cupiditate, modi.</p>
+
+<h2>Block Usage</h2>
+<div>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores exercitationem fugiat modi nam suscipit. Blanditiis ducimus earum nostrum optio voluptatibus.</p>
+  <p>Atque blanditiis ipsa libero nemo repudiandae. Eos fugit ipsam itaque, laborum non odit officiis quae ratione rerum sequi sit velit!</p>
+  <p>Consectetur cum, debitis dicta doloribus illum iure laboriosam necessitatibus obcaecati perferendis quae ratione recusandae rem temporibus ullam velit veniam vero.</p>
+
+  <span class="o-read-more-read-less__toggle" data-more="Read more" data-less="Read less"></span>
+
+  <p>Ab animi doloremque error impedit ipsum maiores, nesciunt non perspiciatis porro quam quidem quisquam rem repudiandae similique tenetur veniam vero.</p>
+  <p>Alias aspernatur at atque consequuntur corporis delectus exercitationem fuga iusto laboriosam maxime, modi neque provident, quae repellat saepe, sequi totam!</p>
+</div>
+
+</body>
+</html>
