@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "preinstall": "npx webpack"
+  },
+  "resolutions": {
+    "graceful-fs": "4.2.3"
+  }
+}
