@@ -4,7 +4,10 @@
   "description": "Zero dependency read more link implementation to any kind of content.",
   "main": "webpack.config.js",
   "scripts": {
-    "build": "npx webpack"
+    "preinstall": "npx webpack"
+  },
+  "resolutions": {
+    "graceful-fs": "4.2.3"
   },
   "repository": {
     "type": "git",
