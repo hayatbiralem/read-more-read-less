@@ -1,0 +1,30 @@
+/* ==========================================================================
+   #READ_MORE_READ_LESS
+   ========================================================================== */
+
+/**
+ * Base styles for object.
+ *
+ * [0] This is an object. More info: https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/#object-namespaces-o-
+ * [1] Make clickable.
+ * [2] Hidden visually. Source: https://github.com/inuitcss/inuitcss/blob/develop/tools/_tools.hidden.scss
+ */
+
+/* [0] */
+.o-read-more-read-less__toggle {
+  cursor: pointer; /* [1] */
+}
+
+/* [2] */
+.o-read-more-read-less:not(.is-expanded) .o-read-more-read-less__content {
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  white-space: nowrap !important;
+  width: 1px !important;
+}

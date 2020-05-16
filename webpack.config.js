@@ -1,0 +1,35 @@
+const path = require('path');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+
+module.exports = {
+  mode: 'production',
+  entry: './src/js/index.js',
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'read-more-read-less.min.js'
+  },
+  plugins: [
+    new MiniCssExtractPlugin({
+      // Options similar to the same options in webpackOptions.output
+      // both options are optional
+      filename: 'read-more-read-less.min.css',
+    }),
+  ],
+  module: {
+    rules: [
+      {
+        test: /\.(sa|sc|c)ss$/,
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              hmr: process.env.NODE_ENV === 'development',
+            },
+          },
+          'css-loader',
+          'sass-loader',
+        ],
+      },
+    ],
+  },
+};
