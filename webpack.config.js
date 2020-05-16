@@ -18,7 +18,7 @@ module.exports = {
       filename: 'read-more-read-less.min.css',
     }),
     new HtmlWebpackPlugin({
-      title: 'Read More Read Less - Demo',
+      title: 'Read More Read Less',
       template: './src/html/index.html',
       minify: false,
     })
