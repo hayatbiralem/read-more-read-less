@@ -55,28 +55,31 @@ Only news ones will be processed.
 
 ### Works inline
 
+The second sentence and the following inline tags will be hidden.
+
 ```html
 <p>Lorem ipsum dolor sit amet. <span class="o-read-more-read-less__toggle"></span> Lorem ipsum dolor sit amet. <span>Some</span> <strong>useful</strong> <em>tags</em>.</p>
 ```
 
-The second sentence and the following inline tags will be hidden.
+Edit on [CodePen](https://codepen.io/hayatbiralem/pen/KKdGeep)
 
 ### Works with blocks
 
-```html
-<p>Lorem ipsum dolor sit amet.</p>
-<span class="o-read-more-read-less__toggle"></span>
-<p>Lorem ipsum dolor sit amet.</p>
-<ul>
-<li>Lorem.</li>
-<li>Quam.</li>
-<li>Inventore!</li>
-</ul>
-<img src="path/to/image.jpg" alt="Some image">
-```
-
 Following blocks will be hidden.
 
+```html
+<p>Lorem ipsum dolor sit amet.</p>
+<p class="o-read-more-read-less__toggle"></p>
+<p>Mollitia inventore quidem harum sunt.</p>
+<ul>
+  <li>Lorem.</li>
+  <li>Quam.</li>
+  <li>Inventore!</li>
+</ul>
+<img src="https://picsum.photos/200/300" alt="Some image">
+```
+
+Edit on [CodePen](https://codepen.io/hayatbiralem/pen/RwWeJBY)
 
 ### Summary
 
