@@ -1,6 +1,6 @@
 {
   "name": "read-more-read-less",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Zero dependency read more link implementation to any kind of content.",
   "main": "src/js/index.js",
   "scripts": {

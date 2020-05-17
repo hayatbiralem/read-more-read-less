@@ -81,6 +81,22 @@ Following blocks will be hidden.
 
 Edit on [CodePen](https://codepen.io/hayatbiralem/pen/RwWeJBY)
 
+### Customize more/less texts
+
+```html
+<p>Lorem ipsum dolor sit amet.</p>
+<p class="o-read-more-read-less__toggle" data-more="More" data-less="Less"></p>
+<p>Mollitia inventore quidem harum sunt.</p>
+<ul>
+  <li>Lorem.</li>
+  <li>Quam.</li>
+  <li>Inventore!</li>
+</ul>
+<img src="https://picsum.photos/200/300" alt="Some image">
+```
+
+Edit on [CodePen](https://codepen.io/hayatbiralem/pen/mdezKva)
+
 ### Summary
 
 In short `.o-read-more-read-less__toggle` element will hide all next siblings including white spaces.
