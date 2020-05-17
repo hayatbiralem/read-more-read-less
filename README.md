@@ -1,6 +1,22 @@
 # read-more-read-less
 Zero dependency read more link implementation to any kind of content.
 
+## Installation
+
+With npm
+
+```
+npm i inuit-displays -S
+```
+
+With bower
+
+```
+bower install hayatbiralem/read-more-read-less --save
+```
+
+You can download the latest version or checkout all the releases [here](https://github.com/hayatbiralem/read-more-read-less/releases).
+
 ## Examples
 
 ### Works inline
