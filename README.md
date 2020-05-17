@@ -29,12 +29,8 @@ You can import this plugin into your project as follows:
 If you want to import the plugin with your webpack build you can do it by:
 
 ```js
-import "read-more-read-less/css/scss/styles";
-import processReadMoreReadLess from "read-more-read-less/src/js/process";
-
-// ...
-
-processReadMoreReadLess();
+import initReadMoreReadLess from "read-more-read-less/src/js/utils/init";
+initReadMoreReadLess();
 ```
 
 You should look at `sass-loader` implementation on [webpack documentation](https://webpack.js.org/loaders/sass-loader/).
