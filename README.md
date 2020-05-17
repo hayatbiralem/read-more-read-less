@@ -6,7 +6,7 @@ Zero dependency read more link implementation to any kind of content.
 With npm
 
 ```
-npm i inuit-displays -S
+npm i read-more-read-less -S
 ```
 
 You can download the latest version or checkout all the releases [here](https://github.com/hayatbiralem/read-more-read-less/releases).
