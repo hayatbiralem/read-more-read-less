@@ -29,7 +29,7 @@ You can import this plugin into your project as follows:
 If you want to import the plugin with your webpack build you can do it by:
 
 ```js
-import initReadMoreReadLess from "read-more-read-less/src/js/utils/init";
+import initReadMoreReadLess from "read-more-read-less/src/js/init";
 initReadMoreReadLess();
 ```
 
