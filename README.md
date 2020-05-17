@@ -18,8 +18,8 @@ You can download the latest version or checkout all the releases [here](https://
 You can import this plugin into your project as follows:
 
 ```html
+<link href="path/to/read-more-read-less.min.css" rel="stylesheet">
 <script src="path/to/read-more-read-less.min.js" defer async></script>
-<link href="path/to/read-more-read-less.min.css" rel="stylesheet"></head>
 ```
 
 .. and you're ready to go.
