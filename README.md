@@ -29,11 +29,27 @@ You can import this plugin into your project as follows:
 If you want to import the plugin with your webpack build you can do it by:
 
 ```js
-import initReadMoreReadLess from "read-more-read-less/src/js/init";
-initReadMoreReadLess();
+import "read-more-read-less";
 ```
 
 You should look at `sass-loader` implementation on [webpack documentation](https://webpack.js.org/loaders/sass-loader/).
+
+### Refresh
+
+You can process new dynamic contents by calling:
+
+```
+window.processReadMoreReadLess();
+```
+
+or in Webpack way:
+
+```js
+import processReadMoreReadLess from "read-more-read-less/src/js/utils/process";
+processReadMoreReadLess();
+```
+
+Only news ones will be processed.
 
 ## Examples
 
