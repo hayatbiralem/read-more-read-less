@@ -1,3 +1,2 @@
-import process from './utils/process';
-import '../scss/styles.scss';
-process();
+import init from './utils/init';
+init();
