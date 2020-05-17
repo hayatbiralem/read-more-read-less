@@ -1,2 +1,2 @@
-import init from './utils/init';
+import init from './init';
 init();
