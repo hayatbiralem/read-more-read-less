@@ -13,7 +13,7 @@ You can download the latest version or checkout all the releases [here](https://
 
 ## Usage
 
-You can import this plugin into your project sample code like this:
+You can import this plugin into your project as follows:
 
 ```html
 <script src="read-more-read-less.min.js" defer async></script>
