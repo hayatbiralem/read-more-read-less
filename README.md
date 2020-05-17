@@ -13,6 +13,8 @@ You can download the latest version or checkout all the releases [here](https://
 
 ## Usage
 
+### Browser
+
 You can import this plugin into your project as follows:
 
 ```html
@@ -21,6 +23,21 @@ You can import this plugin into your project as follows:
 ```
 
 .. and you're ready to go.
+
+### Webpack
+
+If you want to import the plugin with your webpack build you can do it by:
+
+```js
+import "read-more-read-less/css/scss/styles";
+import processReadMoreReadLess from "read-more-read-less/src/js/process";
+
+// ...
+
+processReadMoreReadLess();
+```
+
+You should look at `sass-loader` implementation on [webpack documentation](https://webpack.js.org/loaders/sass-loader/).
 
 ## Examples
 
