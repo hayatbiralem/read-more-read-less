@@ -9,13 +9,18 @@ With npm
 npm i inuit-displays -S
 ```
 
-With bower
-
-```
-bower install hayatbiralem/read-more-read-less --save
-```
-
 You can download the latest version or checkout all the releases [here](https://github.com/hayatbiralem/read-more-read-less/releases).
+
+## Usage
+
+You can import this plugin into your project sample code like this:
+
+```html
+<script src="read-more-read-less.min.js" defer async></script>
+<link href="read-more-read-less.min.css" rel="stylesheet"></head>
+```
+
+.. and you're ready to go.
 
 ## Examples
 
@@ -50,7 +55,7 @@ In short `.o-read-more-read-less__toggle` element will hide all next siblings in
 
 ### Development
 
-Go to the project directory and install dependencies with
+Clone this repo, go to the project directory and install dependencies with
 
 ```
 npm install
